@@ -1,6 +1,11 @@
 # express-install-asterisk-in-aws-ec2-linux
 
 ```
+
+sudo yum -y update
+
+sudo yum -y install epel-release
+
 sed -i 's/\(^SELINUX=\).*/\SELINUX=disabled/' /etc/sysconfig/selinux
 
 sed -i 's/\(^SELINUX=\).*/\SELINUX=disabled/' /etc/selinux/config
