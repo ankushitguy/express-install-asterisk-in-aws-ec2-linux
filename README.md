@@ -13,7 +13,8 @@ sed -i 's/\(^SELINUX=\).*/\SELINUX=disabled/' /etc/selinux/config
 reboot
 
 #MAKE SURE SELINUX IS DISABLED running the  next command
-#sestatus
+
+sestatus
 
 yum -y update
 
