@@ -24,7 +24,7 @@ yum install -y make wget openssl-devel ncurses-devel newt-devel libxml2-devel ke
 
 cd /usr/src/
 
-wget [http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18-current.tar.gz](http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18-current.tar.gz)
+wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-18-current.tar.gz
 
 tar zxvf asterisk*
 
